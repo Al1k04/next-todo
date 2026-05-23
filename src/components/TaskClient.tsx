@@ -3,7 +3,7 @@
 import Modal from "./Modal";
 import { Clipboard } from "lucide-react";
 import { useState } from "react";
-import type { Category, Task } from "@/generated/prisma/client";
+import type { Category, Task } from "@prisma/client";
 import TaskCard from "./TaskCard";
 
 type TaskWithCategory = Task & {

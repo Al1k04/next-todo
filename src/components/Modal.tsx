@@ -1,7 +1,7 @@
 "use client";
 import { CircleX } from "lucide-react";
 import { createTask, updateTask } from "@/actions/taskAction";
-import type { Task, Category } from "@/generated/prisma/client";
+import type { Task, Category } from "@prisma/client";
 import toast from "react-hot-toast";
 
 export default function Modal({
