@@ -41,7 +41,7 @@ export default async function NavBar() {
               <div className="flex items-center gap-3">
                 <img
                   className="w-10 h-10 rounded-full object-cover"
-                  src={session.user.image}
+                  src={session.user.image ?? undefined}
                   alt="User avatar"
                 />
 
